@@ -1,0 +1,6 @@
+Consejo 1: Armar repositorio
+consejo 2: Hacer un informe
+Consejo 3: Seguir las intrucciones al pie de la letra
+Consejo 4: Entregar el trabajo dentro del tiempo determinado
+Consejo 5: Verificar proceso de compilacion
+Consejo 6: Enviar el correo al medio dia y subir documentos al GiHub de manera ordenada
