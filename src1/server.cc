@@ -57,6 +57,7 @@ int main(int argc, char **argv){
     close(c_servidor);// se cierra la conexion con el servidor
     return 1;
   }
+  while(1){
   listen(c_servidor, 3); //Se espera el mensaje o peticion
   printf("A la escucha en el puerto %d\n", ntohs(servidor.sin_port));
   longc = sizeof(cliente); //Se asigna el tamño de la variable
@@ -85,6 +86,7 @@ int main(int argc, char **argv){
     }
     
   }
-  close(c_servidor);
-  return 0;
+  //close(c_servidor);
+  //return 0;
+}
 }
