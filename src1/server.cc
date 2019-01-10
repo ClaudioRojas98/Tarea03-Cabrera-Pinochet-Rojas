@@ -34,7 +34,7 @@ num = rand()%cont;//se genera el consejo random
 
 int main(int argc, char **argv){
     
-
+while(1){
   if(argc<2)
   { //Se piden los argumentos para inicializar la conexion
     printf("%s <puerto>\n",argv[0]);
@@ -87,4 +87,5 @@ int main(int argc, char **argv){
   }
   close(c_servidor);
   return 0;
+}
 }
