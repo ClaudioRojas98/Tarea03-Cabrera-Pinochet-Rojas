@@ -10,7 +10,7 @@ Sofware de intereaccion de cliente con servidor
 ``` 
 make clear
 make
-./servidor <puerto>
+./server <puerto>
 ./cliente <host> <puerto>
 ``` 
 
