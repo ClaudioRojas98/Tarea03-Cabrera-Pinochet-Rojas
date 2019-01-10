@@ -9,7 +9,7 @@
 #include <iostream>
 #include <fstream>
 using namespace std;
-#include <vector>  //for std::vector
+#include <vector>
 #include<time.h>
 int main(int argc, char **argv){
   if(argc<2)
