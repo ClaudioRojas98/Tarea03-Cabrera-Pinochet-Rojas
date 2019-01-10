@@ -15,8 +15,10 @@ make
 ``` 
 
 ## Ejemplos de uso
-Una vez levantado el servidor web,en otra pestaña se ejecuta al cliente y ahi para solicitar el consejo al azar, se ingresa 1 y el servidor responde con un consejo
-ej: ./cliente 127.0.0.1 6000
+Primera mente en una pestaña de terminal se aplica make clean, para borrar todos los datos, luego aplicamos make para generar todos los archivos
+Luego en un terminal se pone ./server <puerto>
+ej: 	./server 6000
+	./cliente 127.0.0.1 6000
 	1. recibir consejo
 	1
 	consejo....
